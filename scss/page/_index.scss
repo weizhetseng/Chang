@@ -1,0 +1,108 @@
+.index {
+    margin-top: -10%;
+    padding: 20px 50px 70px 50px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 90px;
+
+    .indexTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        font-size: 38px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+
+        &::after {
+            position: absolute;
+            content: '';
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #ABB1B1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+    }
+
+    h3 {
+        background: #F5F5F5;
+        padding: 0 40px;
+    }
+
+    .indexAbout {
+        &.row {
+            align-items: center;
+        }
+
+        .col-6 {
+            border-right: 2px solid #ABB1B1;
+        }
+    }
+
+    .indexWorks {
+        margin-bottom: 80px;
+
+        &.row {
+            justify-content: space-between;
+        }
+
+        li {
+            a {
+                display: block;
+                box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+                position: relative;
+
+                .hover {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    display: none;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    background: #fff;
+                    opacity: 0;
+                    left: 0;
+                    top: 0;
+                }
+
+                &:hover {
+                    .hover {
+                        display: block;
+                    }
+
+                    &::after {
+                        opacity: 0.5;
+                    }
+                }
+            }
+
+
+            &:nth-child(odd) {
+                margin-top: 40px;
+            }
+        }
+    }
+
+    .button {
+        float: right;
+        border: 1px solid #2A2B2E;
+        background: transparent;
+        padding: 12px 30px;
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        color: #2A2B2E;
+    }
+}

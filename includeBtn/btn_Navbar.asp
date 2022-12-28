@@ -19,7 +19,7 @@
                     <a class="nav-link" href="tw_Service.asp">服務流程</a>
                 </li>
             </ul>
-            <a href="tw_Contact.asp" class="contact">聯絡我們</a>
+            <a href="tw_Contact.asp" class="contactLink">聯絡我們</a>
         </div>
     </div>
 </nav>

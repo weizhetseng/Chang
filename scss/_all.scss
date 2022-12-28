@@ -1,0 +1,14 @@
+@import './base/reset.scss';
+@import './base/mixin';
+
+@import './layout/navbar';
+@import './layout/global';
+@import './layout/footer';
+
+
+@import './page/about';
+@import './page/contact';
+@import './page/index';
+@import './page/service';
+@import './page/works';
+@import './page/worksDetail';

@@ -1,0 +1,99 @@
+.navbar {
+    background: #2A2B2E;
+    opacity: 0.8;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+    .container-fluid {
+        padding-right: 0;
+    }
+
+    h1 {
+        padding: 10px 0;
+
+        a {
+            display: block;
+            width: 300px;
+            height: 70px;
+            background: url('../images/logo/logo.png')center no-repeat;
+            background-size: contain;
+            text-indent: 101%;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+
+    .nav-link {
+        color: #fff;
+        font-size: 20px;
+        margin-right: 60px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 0%;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            background: #fff;
+            transition: 0.5s;
+        }
+
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+
+    .contact {
+        color: #54585C;
+        font-size: 20px;
+        background: #ABB1B1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 90px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 0%;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            transition: 0.5s;
+            background: #fff;
+        }
+
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+
+    @include lg {
+        position: initial;
+
+        .container-fluid {
+            padding-right: 12px;
+        }
+
+        h1 {
+
+            a {
+                width: 200px;
+                height: 40px;
+            }
+        }
+    }
+}

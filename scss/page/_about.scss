@@ -1,0 +1,23 @@
+.about {
+    margin-top: -10%;
+    padding: 50px 50px 100px 50px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 90px;
+
+    .aboutTitle {
+        text-align: center;
+        position: relative;
+        font-size: 30px;
+        line-height: 1.5;
+        margin-bottom: 60px;
+
+        img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
+    }
+}

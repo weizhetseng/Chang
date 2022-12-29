@@ -23,9 +23,27 @@
 <script>
       var swiper = new Swiper(".worksDetail01", {
         spaceBetween: 10,
-        slidesPerView: 6,
+        slidesPerView: 3,
         freeMode: true,
         watchSlidesProgress: true,
+        breakpoints: {
+          576: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+           992: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+          1200: {
+            slidesPerView: 6,
+            spaceBetween: 10,
+          },
+        },
       });
       var swiper2 = new Swiper(".worksDetail02", {
         loop: true,

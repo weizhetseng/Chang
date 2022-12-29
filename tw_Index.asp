@@ -10,14 +10,16 @@
     <!--#include file="includeBtn/btn_banner.asp"-->
     <div class="container whiteBg index" data-aos="fade-up">
         <div class="row indexAbout">
-            <div class="col-3">
-                <img src="./images/logo/logo2.png" alt="">
+            <div class="col-xl-4">
+                <h4>章記木業有限公司</h4>
+                <h4>高品室內裝修工程有限公司</h4>
+                <img src="./images/other/&.png" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-xl-6">
                 <p>章記木業有限公司成立於民國七十四年，高品室內裝修工程有限公司成立於民國九十一年，兩家公司都是以誠信品質為本的老字號公司，皆領有各項法定證照並擁有建築物室內裝修業登記證的專業服務供應商。
                 </p>
             </div>
-            <div class="col-3">
+            <div class="col-xl-2">
                 <a class="button" href="tw_About.asp">ABOUT<i class="fa-solid fa-angle-right"></i></a>
             </div>
         </div>

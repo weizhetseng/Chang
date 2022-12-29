@@ -28,7 +28,7 @@
             </li>
         </ul>
         <ul class="row worksItems">
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work01.png" alt="">
                     <div class="hoverText">
@@ -37,7 +37,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work02.png" alt="">
                     <div class="hoverText">
@@ -46,7 +46,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work03.png" alt="">
                     <div class="hoverText">
@@ -55,7 +55,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work04.png" alt="">
                     <div class="hoverText">
@@ -64,7 +64,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work05.png" alt="">
                     <div class="hoverText">
@@ -73,7 +73,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work06.png" alt="">
                     <div class="hoverText">
@@ -82,7 +82,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work01.png" alt="">
                     <div class="hoverText">
@@ -91,7 +91,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work02.png" alt="">
                     <div class="hoverText">
@@ -100,7 +100,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work03.png" alt="">
                     <div class="hoverText">
@@ -109,7 +109,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work04.png" alt="">
                     <div class="hoverText">
@@ -118,7 +118,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work05.png" alt="">
                     <div class="hoverText">
@@ -127,7 +127,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work06.png" alt="">
                     <div class="hoverText">
@@ -136,7 +136,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work01.png" alt="">
                     <div class="hoverText">
@@ -145,7 +145,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work02.png" alt="">
                     <div class="hoverText">
@@ -154,7 +154,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work03.png" alt="">
                     <div class="hoverText">
@@ -163,7 +163,7 @@
                     </div>
                 </a>
             </li>
-            <li class="col-3">
+            <li class="col-xl-3 col-md-4 col-sm-6">
                 <a href="tw_WorksDetail.asp">
                     <img src="./images/page/work04.png" alt="">
                     <div class="hoverText">

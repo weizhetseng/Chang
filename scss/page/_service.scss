@@ -1,6 +1,6 @@
 .service {
     padding: 50px 70px 100px;
-    margin-top: -10%;
+    margin-top: -5%;
     position: relative;
     z-index: 1;
     margin-bottom: 90px;
@@ -76,6 +76,10 @@
         li {
             margin-bottom: 40px;
         }
+    }
+
+    @include sm {
+        margin-top: 0;
     }
 
 }

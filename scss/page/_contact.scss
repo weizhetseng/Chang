@@ -1,6 +1,6 @@
 .contact {
     padding: 50px 100px;
-    margin-top: -10%;
+    margin-top: -5%;
     position: relative;
     z-index: 1;
     margin-bottom: 90px;
@@ -93,5 +93,26 @@
         img {
             float: right;
         }
+    }
+
+    @include xl {
+        padding: 50px;
+    }
+
+    @include lg {
+        form {
+            button {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    @include md {
+        padding: 20px;
+    }
+
+    @include sm {
+        margin-top: 0px;
     }
 }

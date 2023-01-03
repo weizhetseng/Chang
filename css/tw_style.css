@@ -246,6 +246,8 @@ a {
   bottom: 0;
   left: 0;
   background: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .navbar .nav-link:hover::after {
   width: 100%;
@@ -275,6 +277,8 @@ a {
   height: 1px;
   bottom: 0;
   left: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   background: #fff;
 }
 .navbar .contactLink:hover::after {
@@ -491,7 +495,7 @@ footer ul li:last-child {
 }
 .about .section2 .col-lg-8 img:first-child {
   position: absolute;
-  top: 0;
+  top: -20%;
   right: -10%;
 }
 .about .section2 .col-lg-8 img:last-child {
@@ -503,6 +507,19 @@ footer ul li:last-child {
 }
 .about .section3 .col-lg-2 {
   text-align: right;
+}
+@media (max-width: 1200px) {
+  .about .section2 .col-lg-8 {
+    position: relative;
+  }
+  .about .section2 .col-lg-8 img:first-child {
+    position: absolute;
+    top: 0;
+    right: -10%;
+  }
+  .about .section2 .col-lg-8 img:last-child {
+    margin-top: 250px;
+  }
 }
 @media (max-width: 992px) {
   .about {

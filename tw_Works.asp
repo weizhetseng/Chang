@@ -173,6 +173,25 @@
                 </a>
             </li>
         </ul>
+        <div class="paganition">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                </li>
+                <li>
+                    <a href="#" class="active">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                </li>
+            </ul>
+        </div>
     </div>
 
 

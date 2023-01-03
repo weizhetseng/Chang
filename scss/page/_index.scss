@@ -84,6 +84,10 @@
                 box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
                 position: relative;
 
+                .indexWorksImg {
+                    width: 100%;
+                }
+
                 .hover {
                     position: absolute;
                     top: 50%;
@@ -115,17 +119,10 @@
                 }
             }
 
-
             &:nth-child(odd) {
                 margin-top: 40px;
             }
         }
-    }
-
-    .moreBtn {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
     }
 
     .button {
@@ -134,12 +131,24 @@
         padding: 12px 30px;
         display: flex;
         align-items: center;
-        gap: 70px;
+        justify-content: space-between;
         font-weight: normal;
         font-size: 24px;
         color: #2A2B2E;
+        max-width: 235px;
+        width: 100%;
+        letter-spacing: 5px;
+
+        &:hover {
+            box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+        }
     }
 
+    .moreBtn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
     @media (min-width: 1200px) {
         .col-xl-4 {
@@ -150,6 +159,64 @@
         .col-xl-2 {
             flex: 0 0 auto;
             width: 20%;
+        }
+
+    }
+
+    @media (min-width: 992px) {
+        .col-lg-2 {
+            flex: 0 0 auto;
+            width: 20%;
+        }
+    }
+
+
+    @include xl {
+        .indexAbout {
+            .col-xl-4 {
+                margin-bottom: 20px;
+            }
+
+            .col-xl-6 {
+                margin-bottom: 20px;
+            }
+
+            .col-xl-2 {
+                border-left: none;
+            }
+        }
+    }
+
+    @include lg {
+        padding: 50px;
+
+        .indexWorks {
+            margin-bottom: 40px;
+
+            &.row {
+                justify-content: center;
+            }
+
+            li {
+                margin-bottom: 20px;
+
+                &:nth-child(odd) {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    @include sm {
+        margin-top: 0px;
+        padding: 25px;
+
+        .indexTitle {
+            font-size: 30px;
+        }
+
+        .indexWorks {
+            margin-bottom: 20px;
         }
     }
 

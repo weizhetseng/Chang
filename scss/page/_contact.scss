@@ -57,13 +57,21 @@
         }
 
         button {
+            width: 100%;
+            max-width: 235px;
             margin-top: 50px;
             border: 1px solid #2A2B2E;
             background: transparent;
             padding: 12px 30px;
             display: flex;
             align-items: center;
-            gap: 70px;
+            justify-content: space-between;
+            font-size: 22px;
+            letter-spacing: 5px;
+
+            &:hover {
+                box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.3);
+            }
         }
 
     }

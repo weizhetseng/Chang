@@ -10,7 +10,7 @@
     <!--#include file="includeBtn/btn_banner.asp"-->
     <div class="container whiteBg index" data-aos="fade-up">
         <div class="row indexAbout">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-6 col-md-8">
                 <h4>章記木業有限公司</h4>
                 <h4>高品室內裝修工程有限公司</h4>
                 <img src="./images/other/&.png" alt="">
@@ -27,33 +27,33 @@
             <h3>案例分享</h3>
         </div>
         <ul class="row indexWorks">
-            <li class="col-2">
+            <li class="col-lg-2 col-sm-4" data-aos="fade-up">
                 <a href="tw_WorksDetail.asp">
-                    <img src="./images/page/index01.png" alt="">
+                    <img class="indexWorksImg" src="./images/page/index01.png" alt="">
                     <img src="./images/other/plus.png" alt="" class="hover">
                 </a>
             </li>
-            <li class="col-2">
+            <li class="col-lg-2 col-sm-4" data-aos="fade-down">
                 <a href="tw_WorksDetail.asp">
-                    <img src="./images/page/index02.png" alt="">
+                    <img class="indexWorksImg" src="./images/page/index02.png" alt="">
                     <img src="./images/other/plus.png" alt="" class="hover">
                 </a>
             </li>
-            <li class="col-2">
+            <li class="col-lg-2 col-sm-4" data-aos="fade-up">
                 <a href="tw_WorksDetail.asp">
-                    <img src="./images/page/index03.png" alt="">
+                    <img class="indexWorksImg" src="./images/page/index03.png" alt="">
                     <img src="./images/other/plus.png" alt="" class="hover">
                 </a>
             </li>
-            <li class="col-2">
+            <li class="col-lg-2 col-sm-4" data-aos="fade-down">
                 <a href="tw_WorksDetail.asp">
-                    <img src="./images/page/index04.png" alt="">
+                    <img class="indexWorksImg" src="./images/page/index04.png" alt="">
                     <img src="./images/other/plus.png" alt="" class="hover">
                 </a>
             </li>
-            <li class="col-2">
+            <li class="col-lg-2 col-sm-4" data-aos="fade-up">
                 <a href="tw_WorksDetail.asp">
-                    <img src="./images/page/index05.png" alt="">
+                    <img class="indexWorksImg" src="./images/page/index05.png" alt="">
                     <img src="./images/other/plus.png" alt="" class="hover">
                 </a>
             </li>

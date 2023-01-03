@@ -44,4 +44,10 @@ footer {
             margin-bottom: 20px;
         }
     }
+
+    @include md {
+        h2 {
+            font-size: 40px;
+        }
+    }
 }

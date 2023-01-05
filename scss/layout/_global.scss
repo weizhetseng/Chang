@@ -3,6 +3,7 @@ body {
     background: #2A2B2E;
     color: #2B2A2E;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 // 首頁banner
@@ -28,6 +29,7 @@ body {
         color: #fff;
         font-size: 42px;
         white-space: nowrap;
+        font-family: Microsoft YaHei UI, sans-serif;
     }
 
     @include sm {

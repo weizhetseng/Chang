@@ -13,11 +13,12 @@
 
     h1 {
         padding: 10px 0;
+        margin-left: 60px;
 
         a {
             display: block;
-            width: 300px;
-            height: 70px;
+            width: 310px;
+            height: 80px;
             background: url('../images/logo/logo.png')center no-repeat;
             background-size: contain;
             text-indent: 101%;
@@ -129,7 +130,7 @@
         align-items: center;
         justify-content: center;
         width: 180px;
-        height: 90px;
+        height: 100px;
         position: relative;
 
         &::after {

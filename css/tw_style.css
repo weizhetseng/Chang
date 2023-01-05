@@ -158,11 +158,12 @@ a {
 }
 .navbar h1 {
   padding: 10px 0;
+  margin-left: 60px;
 }
 .navbar h1 a {
   display: block;
-  width: 300px;
-  height: 70px;
+  width: 310px;
+  height: 80px;
   background: url("../images/logo/logo.png") center no-repeat;
   background-size: contain;
   text-indent: 101%;
@@ -266,7 +267,7 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   width: 180px;
-  height: 90px;
+  height: 100px;
   position: relative;
 }
 .navbar .contactLink::after {
@@ -314,6 +315,7 @@ body {
   background: #2A2B2E;
   color: #2B2A2E;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 .indexBanner img {
@@ -335,6 +337,7 @@ body {
   color: #fff;
   font-size: 42px;
   white-space: nowrap;
+  font-family: Microsoft YaHei UI, sans-serif;
 }
 @media (max-width: 576px) {
   .banner h2 {
@@ -406,10 +409,11 @@ footer ul li:last-child {
 
 .about {
   margin-top: -5%;
-  padding: 50px 50px 100px 50px;
+  padding: 50px 70px 100px 70px;
   position: relative;
   z-index: 1;
   margin-bottom: 90px;
+  line-height: 1.75;
 }
 .about .aboutTitle {
   text-align: center;
@@ -435,6 +439,26 @@ footer ul li:last-child {
 }
 .about .section1 .col-lg-6:last-child {
   border-left: 1px solid #797F84;
+}
+.about .section1 .col-lg-6 li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 2px;
+}
+.about .section1 .col-lg-6 span {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #000;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 .about .section2 {
   margin-bottom: 40px;
@@ -490,16 +514,16 @@ footer ul li:last-child {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
-.about .section2 .col-lg-8 {
+.about .section2 .col-lg-7 {
   position: relative;
 }
-.about .section2 .col-lg-8 img:first-child {
+.about .section2 .col-lg-7 img:first-child {
   position: absolute;
-  top: -20%;
-  right: -10%;
+  top: -150%;
+  right: -12%;
 }
-.about .section2 .col-lg-8 img:last-child {
-  margin-top: 250px;
+.about .section2 .col-lg-7 img:last-child {
+  margin-bottom: -250px;
 }
 .about .section3 {
   color: #797F84;
@@ -508,17 +532,44 @@ footer ul li:last-child {
 .about .section3 .col-lg-2 {
   text-align: right;
 }
+.about .section3 .col-lg-10 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about .section3 .col-lg-10 ul li {
+  margin-right: 15px;
+  position: relative;
+}
+.about .section3 .col-lg-10 ul li::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #797F84;
+  top: 50%;
+  left: -5px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 @media (max-width: 1200px) {
-  .about .section2 .col-lg-8 {
+  .about .section2 li {
+    margin-bottom: 15px;
+  }
+  .about .section2 .col-lg-7 {
     position: relative;
   }
-  .about .section2 .col-lg-8 img:first-child {
+  .about .section2 .col-lg-7 img:first-child {
     position: absolute;
-    top: 0;
-    right: -10%;
+    top: -150%;
+    right: -15%;
   }
-  .about .section2 .col-lg-8 img:last-child {
-    margin-top: 250px;
+  .about .section2 .col-lg-7 img:last-child {
+    margin-bottom: -150px;
   }
 }
 @media (max-width: 992px) {
@@ -535,16 +586,16 @@ footer ul li:last-child {
   .about .section2 ul {
     margin-bottom: 20px;
   }
-  .about .section2 .col-lg-8 {
+  .about .section2 .col-lg-7 {
     position: relative;
   }
-  .about .section2 .col-lg-8 img:first-child {
+  .about .section2 .col-lg-7 img:first-child {
     position: relative;
-    top: 0;
-    right: 0;
+    top: 0%;
+    right: 0%;
   }
-  .about .section2 .col-lg-8 img:last-child {
-    margin-top: 0px;
+  .about .section2 .col-lg-7 img:last-child {
+    margin-bottom: 0px;
   }
   .about .section3 .col-lg-2 {
     margin-bottom: 20px;
@@ -962,10 +1013,11 @@ footer ul li:last-child {
   gap: 5px;
   background: #F5F5F5;
   padding: 5px;
-  top: -10px;
+  top: -17px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  color: #797F84;
 }
 .service li h4 {
   font-size: 22px;

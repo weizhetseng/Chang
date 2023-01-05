@@ -1,9 +1,10 @@
 .about {
     margin-top: -5%;
-    padding: 50px 50px 100px 50px;
+    padding: 50px 70px 100px 70px;
     position: relative;
     z-index: 1;
     margin-bottom: 90px;
+    line-height: 1.75;
 
     .aboutTitle {
         text-align: center;
@@ -30,6 +31,22 @@
 
             &:last-child {
                 border-left: 1px solid #797F84;
+            }
+
+            li {
+                display: flex;
+                align-items: baseline;
+                gap: 2px;
+            }
+
+            span {
+                display: block;
+                width: 4px;
+                height: 4px;
+                border-radius: 50%;
+                background: #000;
+                flex-shrink: 0;
+                transform: translateY(-5px);
             }
         }
 
@@ -96,19 +113,30 @@
             }
         }
 
-        .col-lg-8 {
+        .col-lg-7 {
             position: relative;
 
             img {
+                // &:first-child {
+                //     margin-left: 22%;
+                //     margin-bottom: 500px;
+                //     width: 90%;
+                // }
 
+                // &:last-child {
+                //     position: absolute;
+                //     left: 15%;
+                //     top: 45%;
+                //     z-index: -1;
+                // }
                 &:first-child {
                     position: absolute;
-                    top: -20%;
-                    right: -10%;
+                    top: -150%;
+                    right: -12%;
                 }
 
                 &:last-child {
-                    margin-top: 250px;
+                    margin-bottom: -250px;
                 }
             }
         }
@@ -122,26 +150,57 @@
         .col-lg-2 {
             text-align: right;
         }
-    }
 
-    @include xl {
-        .section2 {
-            .col-lg-8 {
-                position: relative;
+        .col-lg-10 {
+            ul {
+                display: flex;
+                flex-wrap: wrap;
 
-                img {
+                li {
+                    margin-right: 15px;
+                    position: relative;
 
-                    &:first-child {
+                    &::before {
                         position: absolute;
-                        top: 0;
-                        right: -10%;
-                    }
-
-                    &:last-child {
-                        margin-top: 250px;
+                        display: block;
+                        content: '';
+                        width: 4px;
+                        height: 4px;
+                        border-radius: 50%;
+                        background: #797F84;
+                        top: 50%;
+                        left: -5px;
+                        transform: translateY(-50%);
                     }
                 }
             }
+        }
+    }
+
+
+    @include xl {
+        .section2 {
+            li {
+                margin-bottom: 15px;
+            }
+
+            .col-lg-7 {
+                position: relative;
+
+                img {
+                    &:first-child {
+                        position: absolute;
+                        top: -150%;
+                        right: -15%;
+                    }
+
+                    &:last-child {
+                        margin-bottom: -150px;
+                    }
+                }
+            }
+
+
         }
 
     }
@@ -166,22 +225,22 @@
                 margin-bottom: 20px;
             }
 
-            .col-lg-8 {
+            .col-lg-7 {
                 position: relative;
 
                 img {
-
                     &:first-child {
                         position: relative;
-                        top: 0;
-                        right: 0;
+                        top: 0%;
+                        right: 0%;
                     }
 
                     &:last-child {
-                        margin-top: 0px;
+                        margin-bottom: 0px;
                     }
                 }
             }
+
         }
 
         .section3 {

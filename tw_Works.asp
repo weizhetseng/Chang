@@ -14,17 +14,18 @@
     <div class="container whiteBg works" data-aos="fade-up">
         <h3>案例分享</h3>
         <ul class="worksCase">
+            <!-- 當前頁面樣式為class加上active -->
             <li class="active">
-                <a href="#">全部案例</a>
+                <a href="tw_Works.asp">全部案例</a>
             </li>
             <li>
-                <a href="#">商業空間</a>
+                <a href="tw_Works.asp">商業空間</a>
             </li>
             <li>
-                <a href="#">住宅空間</a>
+                <a href="tw_Works.asp">住宅空間</a>
             </li>
             <li>
-                <a href="#">辦公室</a>
+                <a href="tw_Works.asp">辦公室</a>
             </li>
         </ul>
         <ul class="row worksItems">

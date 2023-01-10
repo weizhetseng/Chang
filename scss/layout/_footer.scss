@@ -4,22 +4,31 @@ footer {
     padding: 60px 0;
 
     .row {
-        justify-content: space-between;
+        align-items: center;
     }
 
     h3 {
         font-size: 24px;
+        font-weight: bold;
     }
 
     h2 {
         font-family: Raleway, sans-serif;
         font-size: 60px;
+        color: #ABB1B1;
+        letter-spacing: 5px;
+    }
+
+    .col-lg-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     ul {
         li {
             font-size: 18px;
-            margin-bottom: 24px;
+            margin-bottom: 15px;
             display: flex;
             gap: 10px;
 
@@ -42,6 +51,7 @@ footer {
 
         .col-lg-6 {
             margin-bottom: 20px;
+            justify-content: flex-start;
         }
     }
 

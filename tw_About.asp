@@ -128,7 +128,6 @@
                 <img src="./images/page/about01.png" alt="">
             </div>
         </div>
-
         <div class="row section3">
             <div class="col-lg-2">其他歷年實績</div>
             <div class="col-lg-10">
@@ -155,10 +154,6 @@
                     <li>台北土城客家文化中心</li>
                     <li>蔣經國百年誕辰紀念展裝修工程</li>
                 </ul>
-
-
-
-
             </div>
         </div>
     </div>

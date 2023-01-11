@@ -616,7 +616,7 @@ footer ul li:last-child {
       flex-wrap: wrap;
 }
 .wrap .about .section3 .col-lg-10 ul li {
-  margin-right: 15px;
+  margin-right: 20px;
   position: relative;
 }
 .wrap .about .section3 .col-lg-10 ul li::before {
@@ -772,11 +772,6 @@ footer ul li:last-child {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
-}
-.contact form .codeArea .code {
-  width: 100px;
-  height: 25px;
-  border: 1px solid #000;
 }
 .contact form button {
   width: 100%;
